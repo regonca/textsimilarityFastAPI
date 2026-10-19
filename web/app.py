@@ -5,7 +5,7 @@ import bcrypt
 import spacy
 import uvicorn
 
-app = FastAPI()  # Initialize FastAPI app
+app = FastAPI()  # Initialize FastAPI app by Robson Elias Goncalves
 
 client = MongoClient('mongodb://db:27017/') # Connect to MongoDB (service name "db" in docker-compose)
 db = client['SimilarityDB']  # Database name
